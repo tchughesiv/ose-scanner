@@ -6,7 +6,7 @@ ARG bds_ver
 
 COPY ./output/ose_arbiter /ose_arbiter
 COPY ./ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
-COPY ./LICENSE /LICENSE
+COPY ./LICENSE /licenses/
 COPY ./NOTICE /NOTICE
 COPY ./help.1 /help.1
 
